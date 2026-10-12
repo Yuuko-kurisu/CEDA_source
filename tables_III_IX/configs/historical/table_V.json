@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "case_range": "medium01-25",
+  "split": "historical random train/validation 80/20; full-case scaler",
+  "saved_historical_indices": "MISSING",
+  "E4_effective": {
+    "epochs": 260,
+    "hidden_dim": 256,
+    "context_dim": 128,
+    "beta_kl": 0.001,
+    "free_bits": 0.15
+  },
+  "PG_ddof": 0,
+  "other_branches_ddof": 1,
+  "host_rule": "IG/GNNEx-on-CEDA use their own matched CCI host; do not merge hosts",
+  "extra2": {
+    "GAT_epochs": 100,
+    "GraphMask_epochs": 20,
+    "seed": 42
+  },
+  "full_rerun_gaps": [
+    "original PG runner and exact seed/environment binding",
+    "historical indices and matching weights",
+    "per-host dependency environments"
+  ],
+  "evidence_basis": "Original input manifests and archived evaluation records; documentary reconstruction, not a new execution"
+}

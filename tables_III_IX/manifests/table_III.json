@@ -1,0 +1,20 @@
+{
+  "table": "III",
+  "mode": "ARCHIVE_REAGGREGATION_ONLY_NOT_TRAINING_OR_FULL_RERUN",
+  "inputs": [
+    "iii_cases",
+    "iii_percase"
+  ],
+  "expected": "manifests/expected/table_III.json",
+  "config": "configs/historical/table_III.json",
+  "full_rerun_verified": false,
+  "full_rerun_gaps": [
+    "matching historical checkpoints",
+    "historical saved indices",
+    "all required generated inputs and license",
+    "unified final export"
+  ],
+  "ci_status": "NO_CI_RECOMPUTATION_CLAIM",
+  "reporting_scope": "point estimates and original per-branch SD; streams kept distinct; not a full typeset-table export",
+  "permission": "LOCAL_ONLY_PUBLIC_REVIEW_PENDING"
+}

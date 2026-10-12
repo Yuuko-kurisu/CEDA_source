@@ -1,0 +1,22 @@
+{
+  "table": "VI",
+  "mode": "ARCHIVE_REAGGREGATION_ONLY_NOT_TRAINING_OR_FULL_RERUN",
+  "inputs": [
+    "vi_scores",
+    "vi_selection",
+    "vi_structure",
+    "vi_llm_metrics",
+    "vi_llm_family_metrics"
+  ],
+  "expected": "manifests/expected/table_VI.json",
+  "config": "configs/historical/table_VI.json",
+  "full_rerun_verified": false,
+  "full_rerun_gaps": [
+    "plant inputs and third-party data permission",
+    "structural baseline and hosted LLM upstream runs",
+    "clustered CI implementation packaging"
+  ],
+  "ci_status": "HISTORICAL_REFERENCE_ONLY_NOT_RECOMPUTED",
+  "reporting_scope": "point estimates and original per-branch SD; streams kept distinct; not a full typeset-table export",
+  "permission": "LOCAL_ONLY_PUBLIC_REVIEW_PENDING"
+}

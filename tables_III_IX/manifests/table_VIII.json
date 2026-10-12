@@ -1,0 +1,18 @@
+{
+  "table": "VIII",
+  "mode": "ARCHIVE_REAGGREGATION_ONLY_NOT_TRAINING_OR_FULL_RERUN",
+  "inputs": [
+    "viii_utilities"
+  ],
+  "expected": "manifests/expected/table_VIII.json",
+  "config": "configs/historical/table_VIII.json",
+  "full_rerun_verified": false,
+  "full_rerun_gaps": [
+    "plant inputs and dependency/data permissions",
+    "closed-loop simulation acceptance",
+    "clustered CI implementation packaging"
+  ],
+  "ci_status": "HISTORICAL_REFERENCE_ONLY_NOT_RECOMPUTED",
+  "reporting_scope": "point estimates and original per-branch SD; streams kept distinct; not a full typeset-table export",
+  "permission": "LOCAL_ONLY_PUBLIC_REVIEW_PENDING"
+}

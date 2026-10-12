@@ -1,0 +1,26 @@
+{
+  "table": "IX",
+  "mode": "ARCHIVE_REAGGREGATION_ONLY_NOT_TRAINING_OR_FULL_RERUN",
+  "inputs": [
+    "e4_percase",
+    "gnnexplainer_small",
+    "gnnexplainer_medium",
+    "gnnexplainer_large",
+    "gat_ablation",
+    "graphxai_extra",
+    "graphxai_extra2",
+    "ig_on_ceda",
+    "gnnex_on_ceda"
+  ],
+  "expected": "manifests/expected/table_IX.json",
+  "config": "configs/historical/table_IX.json",
+  "full_rerun_verified": false,
+  "full_rerun_gaps": [
+    "matching weights",
+    "historical saved indices",
+    "complete historical CLI/runtime environment binding"
+  ],
+  "ci_status": "NO_CI_RECOMPUTATION_CLAIM",
+  "reporting_scope": "point estimates and original per-branch SD; streams kept distinct; not a full typeset-table export",
+  "permission": "LOCAL_ONLY_PUBLIC_REVIEW_PENDING"
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+reproduced/
+tables_III_IX/reproduced/
+c10_stability/reproduced/

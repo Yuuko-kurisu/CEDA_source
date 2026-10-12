@@ -1,0 +1,28 @@
+{
+  "cases": 30,
+  "pairings": 15,
+  "method_utility_sources": {
+    "downstream": 28,
+    "candidate": 2
+  },
+  "GT_utility_sources": {
+    "downstream": 30
+  },
+  "horizon_days": 0.15,
+  "KPI_start_days": 0.05,
+  "rollout_seeds": [
+    0,
+    1000
+  ],
+  "cluster_bootstrap": {
+    "n_boot": 2000,
+    "base_seed": 62929,
+    "offsets": "historical script-derived; not rerun"
+  },
+  "full_rerun_gaps": [
+    "plant inputs and dependency/data permissions",
+    "closed-loop simulation acceptance",
+    "clustered CI implementation packaging"
+  ],
+  "evidence_basis": "Original input manifests and archived evaluation records; documentary reconstruction, not a new execution"
+}

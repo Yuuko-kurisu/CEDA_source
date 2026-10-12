@@ -1,0 +1,22 @@
+{
+  "n_cases": 30,
+  "candidates_per_case": 20,
+  "pairings": 15,
+  "variant_rollout_seeds": [
+    0,
+    1000
+  ],
+  "ranker_seed": "900 + historical pairing ordinal",
+  "features": 24,
+  "fixed_Gaussian_ReLU": 32,
+  "ridge": 1,
+  "split": "leave both variants of same pairing out; train-only standardization",
+  "label": "tuple is_gt",
+  "prior_acceptance": "Archived refit check: 600 scores matched within 1e-8; this package performs no fitting",
+  "full_rerun_gaps": [
+    "plant inputs and third-party data permission",
+    "structural baseline and hosted LLM upstream runs",
+    "clustered CI implementation packaging"
+  ],
+  "evidence_basis": "Original input manifests and archived evaluation records; documentary reconstruction, not a new execution"
+}

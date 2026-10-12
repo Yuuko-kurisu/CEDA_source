@@ -1,0 +1,62 @@
+{
+  "source_id": "archived_validation_table_IV",
+  "source_sha256": "dfab90bd9a6b0898c53defc311693c84c08daec2ec7012672940d7e0c450e609",
+  "result": {
+    "by_class": [
+      {
+        "defect_class": "structural",
+        "metric": "full_ndcg5",
+        "n": 80,
+        "mean": 0.5194330221518789,
+        "sd": 0.14935711141637276,
+        "ddof": 1
+      },
+      {
+        "defect_class": "structural",
+        "metric": "without_physics_ndcg5",
+        "n": 80,
+        "mean": 0.0623223492951947,
+        "sd": 0.10883456536693584,
+        "ddof": 1
+      },
+      {
+        "defect_class": "structural",
+        "metric": "without_context_ndcg5",
+        "n": 80,
+        "mean": 0.6746162018037521,
+        "sd": 0.12587530877642472,
+        "ddof": 1
+      },
+      {
+        "defect_class": "tacit",
+        "metric": "full_ndcg5",
+        "n": 240,
+        "mean": 0.8269318885456025,
+        "sd": 0.1853784695381677,
+        "ddof": 1
+      },
+      {
+        "defect_class": "tacit",
+        "metric": "without_physics_ndcg5",
+        "n": 240,
+        "mean": 0.9680038210641485,
+        "sd": 0.11245384099097591,
+        "ddof": 1
+      },
+      {
+        "defect_class": "tacit",
+        "metric": "without_context_ndcg5",
+        "n": 240,
+        "mean": 0.2670914129212164,
+        "sd": 0.2602887154509295,
+        "ddof": 1
+      }
+    ],
+    "two_class_equal_macro": {
+      "full_ndcg5": 0.6731824553487407,
+      "without_physics_ndcg5": 0.5151630851796716,
+      "without_context_ndcg5": 0.4708538073624843
+    },
+    "n": 320
+  }
+}

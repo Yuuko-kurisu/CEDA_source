@@ -1,0 +1,9 @@
+{
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.10.1",
+    "torch": "2.5.1+cu121"
+  },
+  "scope": "historical CPU preparation version metadata; not claimed complete runtime binding",
+  "torch_imported_in_this_task": false
+}

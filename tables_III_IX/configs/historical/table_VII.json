@@ -1,0 +1,22 @@
+{
+  "seeds": "manifests/vii_case_seeds.csv",
+  "valid_counts": {
+    "omitted": 24,
+    "weakened": 25,
+    "spurious": 25
+  },
+  "metric": "undirected endpoint pair_p1; not exact-operation",
+  "historical": {
+    "min_accuracy": 0.6,
+    "attr_samples": 100,
+    "topk": 9999,
+    "hops": 99,
+    "candidate_cap": 100000
+  },
+  "full_rerun_gaps": [
+    "74 checkpoints not included",
+    "all historical generated cases",
+    "74-case full run acceptance"
+  ],
+  "evidence_basis": "Original input manifests and archived evaluation records; documentary reconstruction, not a new execution"
+}

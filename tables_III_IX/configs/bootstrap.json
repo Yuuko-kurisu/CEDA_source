@@ -1,0 +1,33 @@
+{
+  "base_seed": 62929,
+  "n_boot": 2000,
+  "percentiles": [
+    2.5,
+    97.5
+  ],
+  "quantile_method": "numpy default linear",
+  "rng": "numpy.random.default_rng (PCG64)",
+  "cluster_key": "case_id before __seed",
+  "cluster_order": "sorted string pairing IDs, NOT historical fold ordinal order",
+  "cluster_value": "arithmetic mean of both variants; equal weight across clusters",
+  "VI_seed": "62929 + 7*len(display_name) + metric_index; exact=0,top3=1,harm=2",
+  "VIII_method_seed": "62929 + len(group_tag) + len(display_name)",
+  "VIII_GT_seed": "62929 + 101 + len(group_tag) + len(display_name)",
+  "VIII_group_tags": {
+    "Dry": "regime",
+    "Rain": "regime",
+    "Storm": "regime",
+    "Overall": "overall"
+  },
+  "VI_harm": "indicator(U_eqi < 0); CEDA from historical lopo outcome utility, not VIII utility",
+  "VIII_sources": "clean 28 downstream + 2 candidate method utility; all GT downstream",
+  "historical_full_precision_CI_available": false,
+  "validation_precision": "VI two decimals, VIII integer, as frozen CI reports and submitted tables",
+  "helper_source_sha256": "cdd89bfe0bc96d3609f468539042e1f64204d26adc8a47530a72d59d9d121246",
+  "formula_sources": {
+    "pool_legality_and_ci.py": "a6531b86372d728f4c6dd03fce53ec497212b888e418c624ff678877a9d19c56",
+    "lopo_apply_calc.py": "2b4210fc57a7bdcb20aba3c86d4cb039d7b9ede0a99ced8a8c6b1a31532e4f95"
+  },
+  "recorded_historical_runtime": "legacy BSM Python3.10.19; exact original CI NumPy runtime not conclusively bound",
+  "no_fitting_no_simulation": true
+}

@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "cases_per_scale": 25,
+  "split": "historical random train/validation 80/20; full-case scaler",
+  "saved_historical_indices": "MISSING",
+  "scale_mapping": {
+    "E4_big": "GNNEx_large"
+  },
+  "small": {
+    "hidden_dim": 128,
+    "epochs": 100,
+    "beta_kl": 0.005,
+    "free_bits": 0.05
+  },
+  "medium": "same E4 profile as V",
+  "large": {
+    "hidden_dim": 192,
+    "epochs": 150,
+    "beta_kl": 0.005,
+    "free_bits": 0.05,
+    "phy_bottleneck_drop": 0.5,
+    "phy_bottleneck_start": 120
+  },
+  "CEDA_metric": "context CCI",
+  "full_rerun_gaps": [
+    "matching weights",
+    "historical saved indices",
+    "complete historical CLI/runtime environment binding"
+  ],
+  "evidence_basis": "Original input manifests and archived evaluation records; documentary reconstruction, not a new execution"
+}

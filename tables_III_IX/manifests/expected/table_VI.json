@@ -1,0 +1,403 @@
+{
+  "source_id": "archived_validation_table_VI",
+  "source_sha256": "40bb8fea1d9bac22c8d436297f78b86aba92d6d3cd003eddff6b74cae5fdd576",
+  "result": {
+    "CEDA_per_case": [
+      {
+        "case_id": "dry_conditional",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "dry_conditional__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "dry_hydraulic_missing",
+        "top1": 0,
+        "top3": 1,
+        "MRR": 0.3333333333333333
+      },
+      {
+        "case_id": "dry_hydraulic_missing__seed1",
+        "top1": 0,
+        "top3": 1,
+        "MRR": 0.3333333333333333
+      },
+      {
+        "case_id": "dry_missing",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "dry_missing__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "dry_spurious",
+        "top1": 0,
+        "top3": 0,
+        "MRR": 0.2
+      },
+      {
+        "case_id": "dry_spurious__seed1",
+        "top1": 0,
+        "top3": 0,
+        "MRR": 0.2
+      },
+      {
+        "case_id": "dry_weakened",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "dry_weakened__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "rain_conditional",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "rain_conditional__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "rain_hydraulic_missing",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "rain_hydraulic_missing__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "rain_missing",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "rain_missing__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "rain_spurious",
+        "top1": 0,
+        "top3": 1,
+        "MRR": 0.5
+      },
+      {
+        "case_id": "rain_spurious__seed1",
+        "top1": 0,
+        "top3": 1,
+        "MRR": 0.5
+      },
+      {
+        "case_id": "rain_weakened",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "rain_weakened__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "storm_conditional",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "storm_conditional__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "storm_hydraulic_missing",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "storm_hydraulic_missing__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "storm_missing",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "storm_missing__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "storm_spurious",
+        "top1": 0,
+        "top3": 1,
+        "MRR": 0.3333333333333333
+      },
+      {
+        "case_id": "storm_spurious__seed1",
+        "top1": 0,
+        "top3": 1,
+        "MRR": 0.3333333333333333
+      },
+      {
+        "case_id": "storm_weakened",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      },
+      {
+        "case_id": "storm_weakened__seed1",
+        "top1": 1,
+        "top3": 1,
+        "MRR": 1.0
+      }
+    ],
+    "CEDA_top1": 0.7333333333333333,
+    "CEDA_top3": 0.9333333333333333,
+    "other_methods": [
+      {
+        "method": "DistMult-KGC-real",
+        "metric": "exact_tuple",
+        "n": 30,
+        "mean": 0.03333333333333333,
+        "sd": 0.18257418583505536,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_structure"
+      },
+      {
+        "method": "GES-real",
+        "metric": "exact_tuple",
+        "n": 30,
+        "mean": 0.13333333333333333,
+        "sd": 0.3457459036417604,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_structure"
+      },
+      {
+        "method": "GOLEM-real",
+        "metric": "exact_tuple",
+        "n": 30,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_structure"
+      },
+      {
+        "method": "NOTEARS-real",
+        "metric": "exact_tuple",
+        "n": 30,
+        "mean": 0.13333333333333333,
+        "sd": 0.3457459036417604,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_structure"
+      },
+      {
+        "method": "DistMult-KGC-real",
+        "metric": "gt_in_topk",
+        "n": 30,
+        "mean": 0.16666666666666666,
+        "sd": 0.3790490217894517,
+        "ddof": 1,
+        "top_k": "3",
+        "source": "vi_structure"
+      },
+      {
+        "method": "GES-real",
+        "metric": "gt_in_topk",
+        "n": 30,
+        "mean": 0.3333333333333333,
+        "sd": 0.47946330148538413,
+        "ddof": 1,
+        "top_k": "3",
+        "source": "vi_structure"
+      },
+      {
+        "method": "GOLEM-real",
+        "metric": "gt_in_topk",
+        "n": 30,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ddof": 1,
+        "top_k": "3",
+        "source": "vi_structure"
+      },
+      {
+        "method": "NOTEARS-real",
+        "metric": "gt_in_topk",
+        "n": 30,
+        "mean": 0.16666666666666666,
+        "sd": 0.3790490217894517,
+        "ddof": 1,
+        "top_k": "3",
+        "source": "vi_structure"
+      },
+      {
+        "method": "DistMult-KGC-real",
+        "metric": "harm_from_utility",
+        "n": 30,
+        "mean": 0.26666666666666666,
+        "sd": 0.4497764451088036,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_structure"
+      },
+      {
+        "method": "GES-real",
+        "metric": "harm_from_utility",
+        "n": 30,
+        "mean": 0.13333333333333333,
+        "sd": 0.3457459036417604,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_structure"
+      },
+      {
+        "method": "GOLEM-real",
+        "metric": "harm_from_utility",
+        "n": 30,
+        "mean": 0.4,
+        "sd": 0.49827287912243984,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_structure"
+      },
+      {
+        "method": "NOTEARS-real",
+        "metric": "harm_from_utility",
+        "n": 30,
+        "mean": 0.2,
+        "sd": 0.4068381021724862,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_structure"
+      },
+      {
+        "method": "LLM-as-auditor",
+        "metric": "exact_tuple",
+        "n": 30,
+        "mean": 0.16666666666666666,
+        "sd": 0.3790490217894517,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_llm_metrics"
+      },
+      {
+        "method": "LLM-as-auditor",
+        "metric": "gt_in_topk",
+        "n": 30,
+        "mean": 0.4,
+        "sd": 0.49827287912243984,
+        "ddof": 1,
+        "top_k": "3",
+        "source": "vi_llm_metrics"
+      },
+      {
+        "method": "LLM-as-auditor",
+        "metric": "harm_from_utility",
+        "n": 30,
+        "mean": 0.2,
+        "sd": 0.4068381021724862,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_llm_metrics"
+      },
+      {
+        "method": "GraphRAG-style",
+        "metric": "exact_tuple",
+        "n": 30,
+        "mean": 0.3,
+        "sd": 0.466091599699399,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_llm_family_metrics"
+      },
+      {
+        "method": "LLM-KGC-style",
+        "metric": "exact_tuple",
+        "n": 30,
+        "mean": 0.3,
+        "sd": 0.466091599699399,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_llm_family_metrics"
+      },
+      {
+        "method": "GraphRAG-style",
+        "metric": "gt_in_topk",
+        "n": 30,
+        "mean": 0.4,
+        "sd": 0.49827287912243984,
+        "ddof": 1,
+        "top_k": "3",
+        "source": "vi_llm_family_metrics"
+      },
+      {
+        "method": "LLM-KGC-style",
+        "metric": "gt_in_topk",
+        "n": 30,
+        "mean": 0.36666666666666664,
+        "sd": 0.490132517853561,
+        "ddof": 1,
+        "top_k": "3",
+        "source": "vi_llm_family_metrics"
+      },
+      {
+        "method": "GraphRAG-style",
+        "metric": "harm_from_utility",
+        "n": 30,
+        "mean": 0.06666666666666667,
+        "sd": 0.2537081317024624,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_llm_family_metrics"
+      },
+      {
+        "method": "LLM-KGC-style",
+        "metric": "harm_from_utility",
+        "n": 30,
+        "mean": 0.03333333333333333,
+        "sd": 0.18257418583505536,
+        "ddof": 1,
+        "top_k": "1",
+        "source": "vi_llm_family_metrics"
+      }
+    ],
+    "clean_selection_rows": 30
+  }
+}

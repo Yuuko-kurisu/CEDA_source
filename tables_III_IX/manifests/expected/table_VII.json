@@ -1,0 +1,278 @@
+{
+  "source_id": "archived_validation_table_VII",
+  "source_sha256": "31a0dbbbe4be146c161f6a8cd4c433a0eb6c30da9046c56431b0589e68ab9773",
+  "result": {
+    "cells": [
+      {
+        "method": "CEDA-T:R_context",
+        "defect_type": "omitted",
+        "metric": "pair_p1",
+        "n": 24,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "CEDA-T:R_context",
+        "defect_type": "spurious",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "CEDA-T:R_context",
+        "defect_type": "weakened",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "CEDA-T:R_gnn",
+        "defect_type": "omitted",
+        "metric": "pair_p1",
+        "n": 24,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "CEDA-T:R_gnn",
+        "defect_type": "spurious",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "CEDA-T:R_gnn",
+        "defect_type": "weakened",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "CEDA-T:fused",
+        "defect_type": "omitted",
+        "metric": "pair_p1",
+        "n": 24,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "CEDA-T:fused",
+        "defect_type": "spurious",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "CEDA-T:fused",
+        "defect_type": "weakened",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "DistMult",
+        "defect_type": "omitted",
+        "metric": "pair_p1",
+        "n": 24,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "DistMult",
+        "defect_type": "spurious",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "DistMult",
+        "defect_type": "weakened",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "GAT+NodeAbl",
+        "defect_type": "omitted",
+        "metric": "pair_p1",
+        "n": 24,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "GAT+NodeAbl",
+        "defect_type": "spurious",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "GAT+NodeAbl",
+        "defect_type": "weakened",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "GES",
+        "defect_type": "omitted",
+        "metric": "pair_p1",
+        "n": 24,
+        "mean": 0.08333333333333333,
+        "sd": 0.28232985128663995,
+        "ddof": 1
+      },
+      {
+        "method": "GES",
+        "defect_type": "spurious",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 0.6,
+        "sd": 0.5,
+        "ddof": 1
+      },
+      {
+        "method": "GES",
+        "defect_type": "weakened",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 0.04,
+        "sd": 0.2,
+        "ddof": 1
+      },
+      {
+        "method": "GNNExplainer-on-CEDA",
+        "defect_type": "omitted",
+        "metric": "pair_p1",
+        "n": 24,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "GNNExplainer-on-CEDA",
+        "defect_type": "spurious",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "GNNExplainer-on-CEDA",
+        "defect_type": "weakened",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "GOLEM",
+        "defect_type": "omitted",
+        "metric": "pair_p1",
+        "n": 24,
+        "mean": 0.041666666666666664,
+        "sd": 0.2041241452319315,
+        "ddof": 1
+      },
+      {
+        "method": "GOLEM",
+        "defect_type": "spurious",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 0.68,
+        "sd": 0.47609522856952335,
+        "ddof": 1
+      },
+      {
+        "method": "GOLEM",
+        "defect_type": "weakened",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 0.04,
+        "sd": 0.2,
+        "ddof": 1
+      },
+      {
+        "method": "IG-on-CEDA",
+        "defect_type": "omitted",
+        "metric": "pair_p1",
+        "n": 24,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "IG-on-CEDA",
+        "defect_type": "spurious",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "IG-on-CEDA",
+        "defect_type": "weakened",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 1.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "NOTEARS",
+        "defect_type": "omitted",
+        "metric": "pair_p1",
+        "n": 24,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ddof": 1
+      },
+      {
+        "method": "NOTEARS",
+        "defect_type": "spurious",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 0.92,
+        "sd": 0.27688746209726917,
+        "ddof": 1
+      },
+      {
+        "method": "NOTEARS",
+        "defect_type": "weakened",
+        "metric": "pair_p1",
+        "n": 25,
+        "mean": 0.04,
+        "sd": 0.2,
+        "ddof": 1
+      }
+    ]
+  }
+}

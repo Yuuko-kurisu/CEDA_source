@@ -1,0 +1,51 @@
+case_id,method,Accuracy,NDCG@5,Recall@5,status,host,host_protocol
+CEDA_medium_01,PGExplainer,0.3474773609314359,0.169580102636808,0.0714285714285714,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_02,PGExplainer,0.1299921691464369,0.3835663673713356,0.1538461538461538,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_03,PGExplainer,0.3431734317343173,0.2139862647345275,0.0833333333333333,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_04,PGExplainer,0.2922954725972994,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_05,PGExplainer,0.2636433512682551,0.3391602052736161,0.0666666666666666,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_06,PGExplainer,0.2595712098009188,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_07,PGExplainer,0.3042471042471042,0.3451913422468693,0.1333333333333333,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_08,PGExplainer,0.1519685039370078,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_09,PGExplainer,0.1339285714285714,0.1312050775123417,0.0625,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_10,PGExplainer,0.1479915433403805,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_11,PGExplainer,0.1256,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_12,PGExplainer,0.2575039494470774,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_13,PGExplainer,0.4894736842105263,0.4852285551163225,0.1818181818181818,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_14,PGExplainer,0.1411347517730496,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_15,PGExplainer,0.4967860422405877,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;edge_to_node=incident_mean
+CEDA_medium_16,PGExplainer,0.27983251919050944,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;batch_size=8;edge_to_node=incident_mean
+CEDA_medium_17,PGExplainer,0.2058383233532934,0.7227265726449519,0.21428571428571427,ok,GAT-Only,gat_epochs=100;pg_epochs=20;batch_size=8;edge_to_node=incident_mean
+CEDA_medium_18,PGExplainer,0.2543307086614173,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;batch_size=8;edge_to_node=incident_mean
+CEDA_medium_19,PGExplainer,0.26365795724465557,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;batch_size=8;edge_to_node=incident_mean
+CEDA_medium_20,PGExplainer,0.17952883834281072,0.3391602052736161,0.06666666666666667,ok,GAT-Only,gat_epochs=100;pg_epochs=20;batch_size=8;edge_to_node=incident_mean
+CEDA_medium_21,PGExplainer,0.24924924924924924,0.21398626473452756,0.07692307692307693,ok,GAT-Only,gat_epochs=100;pg_epochs=20;batch_size=8;edge_to_node=incident_mean
+CEDA_medium_22,PGExplainer,0.4883720930232558,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;batch_size=8;edge_to_node=incident_mean
+CEDA_medium_23,PGExplainer,0.24632352941176472,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;batch_size=8;edge_to_node=incident_mean
+CEDA_medium_24,PGExplainer,0.14820359281437126,0.3391602052736161,0.07142857142857142,ok,GAT-Only,gat_epochs=100;pg_epochs=20;batch_size=8;edge_to_node=incident_mean
+CEDA_medium_25,PGExplainer,0.3811965811965812,0.0,0.0,ok,GAT-Only,gat_epochs=100;pg_epochs=20;batch_size=8;edge_to_node=incident_mean
+CEDA_medium_01,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_02,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_03,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_04,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_05,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_06,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_07,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_08,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_09,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_10,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_11,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_12,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_13,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_14,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_15,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_16,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_17,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_18,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_19,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_20,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_21,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_22,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_23,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_24,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task
+CEDA_medium_25,SubgraphX,,,,blocked_unavailable_in_current_torch_geometric,GAT-Only,torch_geometric.explain.SubgraphX import required by task

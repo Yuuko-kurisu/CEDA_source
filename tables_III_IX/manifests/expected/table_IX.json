@@ -1,0 +1,680 @@
+{
+  "source_id": "archived_validation_table_IX",
+  "source_sha256": "4cc3de5c8c5740e37b01b0c6c490ddf3bae805e95e9aa5fd2cfda90e665077d0",
+  "result": {
+    "audited_E4_aggregate_rows": [
+      {
+        "scale": "big",
+        "method": "CEDA-T (Proposed)",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.860548,
+        "sample_std": 0.10167552606207651
+      },
+      {
+        "scale": "big",
+        "method": "CEDA-T (Proposed)",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.511368,
+        "sample_std": 0.2597152330277658
+      },
+      {
+        "scale": "big",
+        "method": "CEDA-T (Proposed)",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.20432,
+        "sample_std": 0.11792094809659563
+      },
+      {
+        "scale": "big",
+        "method": "GAT-Only + Integrated Gradients",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.351452,
+        "sample_std": 0.15777829413452282
+      },
+      {
+        "scale": "big",
+        "method": "GAT-Only + Integrated Gradients",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.19964800000000002,
+        "sample_std": 0.22822614355064585
+      },
+      {
+        "scale": "big",
+        "method": "GAT-Only + Integrated Gradients",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.103656,
+        "sample_std": 0.12016366297679178
+      },
+      {
+        "scale": "big",
+        "method": "Generative Adversarial Imitation Learning",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.322128,
+        "sample_std": 0.16102466301781226
+      },
+      {
+        "scale": "big",
+        "method": "Generative Adversarial Imitation Learning",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "big",
+        "method": "Pure Behavior Cloning",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.313192,
+        "sample_std": 0.16389215183569142
+      },
+      {
+        "scale": "big",
+        "method": "Pure Behavior Cloning",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "big",
+        "method": "Random Attribution",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "big",
+        "method": "Random Attribution",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.119908,
+        "sample_std": 0.11652920921382759
+      },
+      {
+        "scale": "big",
+        "method": "Random Attribution",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.060864,
+        "sample_std": 0.055603745976927375
+      },
+      {
+        "scale": "big",
+        "method": "Sequence Behavior Cloning (GRU)",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.72532,
+        "sample_std": 0.0897634994490151
+      },
+      {
+        "scale": "big",
+        "method": "Sequence Behavior Cloning (GRU)",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "medium",
+        "method": "CEDA-T (Proposed)",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.918232,
+        "sample_std": 0.04772212729262321
+      },
+      {
+        "scale": "medium",
+        "method": "CEDA-T (Proposed)",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.752268,
+        "sample_std": 0.2393636663461409
+      },
+      {
+        "scale": "medium",
+        "method": "CEDA-T (Proposed)",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.276276,
+        "sample_std": 0.09793122280457851
+      },
+      {
+        "scale": "medium",
+        "method": "GAT-Only + Integrated Gradients",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.198528,
+        "sample_std": 0.09388722632321538
+      },
+      {
+        "scale": "medium",
+        "method": "GAT-Only + Integrated Gradients",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.158684,
+        "sample_std": 0.17154327121749777
+      },
+      {
+        "scale": "medium",
+        "method": "GAT-Only + Integrated Gradients",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.070084,
+        "sample_std": 0.07023288451051023
+      },
+      {
+        "scale": "medium",
+        "method": "Generative Adversarial Imitation Learning",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.392276,
+        "sample_std": 0.08457255898536671
+      },
+      {
+        "scale": "medium",
+        "method": "Generative Adversarial Imitation Learning",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "medium",
+        "method": "Pure Behavior Cloning",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.416368,
+        "sample_std": 0.09133292451246702
+      },
+      {
+        "scale": "medium",
+        "method": "Pure Behavior Cloning",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "medium",
+        "method": "Random Attribution",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "medium",
+        "method": "Random Attribution",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.272636,
+        "sample_std": 0.2106227727478679
+      },
+      {
+        "scale": "medium",
+        "method": "Random Attribution",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.103096,
+        "sample_std": 0.07683351308728069
+      },
+      {
+        "scale": "medium",
+        "method": "Sequence Behavior Cloning (GRU)",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.782024,
+        "sample_std": 0.0569543331684839
+      },
+      {
+        "scale": "medium",
+        "method": "Sequence Behavior Cloning (GRU)",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "small",
+        "method": "CEDA-T (Proposed)",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.978472,
+        "sample_std": 0.03688817019045537
+      },
+      {
+        "scale": "small",
+        "method": "CEDA-T (Proposed)",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.808312,
+        "sample_std": 0.154125688211494
+      },
+      {
+        "scale": "small",
+        "method": "CEDA-T (Proposed)",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.348792,
+        "sample_std": 0.09574667496402509
+      },
+      {
+        "scale": "small",
+        "method": "GAT-Only + Integrated Gradients",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.172492,
+        "sample_std": 0.07862773005329185
+      },
+      {
+        "scale": "small",
+        "method": "GAT-Only + Integrated Gradients",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.157476,
+        "sample_std": 0.18722388398207462
+      },
+      {
+        "scale": "small",
+        "method": "GAT-Only + Integrated Gradients",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.092176,
+        "sample_std": 0.10097454415181416
+      },
+      {
+        "scale": "small",
+        "method": "Generative Adversarial Imitation Learning",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.360696,
+        "sample_std": 0.05448954395111047
+      },
+      {
+        "scale": "small",
+        "method": "Generative Adversarial Imitation Learning",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "small",
+        "method": "Pure Behavior Cloning",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.362072,
+        "sample_std": 0.0698152772201997
+      },
+      {
+        "scale": "small",
+        "method": "Pure Behavior Cloning",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "small",
+        "method": "Random Attribution",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      {
+        "scale": "small",
+        "method": "Random Attribution",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.5224920000000001,
+        "sample_std": 0.24343523423421407
+      },
+      {
+        "scale": "small",
+        "method": "Random Attribution",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.236844,
+        "sample_std": 0.099304427058079
+      },
+      {
+        "scale": "small",
+        "method": "Sequence Behavior Cloning (GRU)",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.910696,
+        "sample_std": 0.06005130084630418
+      },
+      {
+        "scale": "small",
+        "method": "Sequence Behavior Cloning (GRU)",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.0,
+        "sample_std": 0.0
+      }
+    ],
+    "other_raw_branches": [
+      {
+        "method": "GNNExplainer",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.1737350587497516,
+        "sd": 0.05583844768900358,
+        "ddof": 1,
+        "source": "gnnexplainer_small",
+        "scale": "small"
+      },
+      {
+        "method": "GNNExplainer",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.49682163115255584,
+        "sd": 0.23871165118040163,
+        "ddof": 1,
+        "source": "gnnexplainer_small",
+        "scale": "small"
+      },
+      {
+        "method": "GNNExplainer",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.23515151515151514,
+        "sd": 0.09723468370878445,
+        "ddof": 1,
+        "source": "gnnexplainer_small",
+        "scale": "small"
+      },
+      {
+        "method": "GNNExplainer",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.18204083204739488,
+        "sd": 0.08904596801040883,
+        "ddof": 1,
+        "source": "gnnexplainer_medium",
+        "scale": "medium"
+      },
+      {
+        "method": "GNNExplainer",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.24040930080236256,
+        "sd": 0.25137108665892766,
+        "ddof": 1,
+        "source": "gnnexplainer_medium",
+        "scale": "medium"
+      },
+      {
+        "method": "GNNExplainer",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.08993856143856144,
+        "sd": 0.08524383108910508,
+        "ddof": 1,
+        "source": "gnnexplainer_medium",
+        "scale": "medium"
+      },
+      {
+        "method": "GAT-Only + Node Ablation",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.18850818362658125,
+        "sd": 0.09831121426008928,
+        "ddof": 1,
+        "source": "gat_ablation",
+        "scale": "medium"
+      },
+      {
+        "method": "GAT-Only + Node Ablation",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.4841957022125734,
+        "sd": 0.24334862871857907,
+        "ddof": 1,
+        "source": "gat_ablation",
+        "scale": "medium"
+      },
+      {
+        "method": "GAT-Only + Node Ablation",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.16676773226773225,
+        "sd": 0.10078131425804945,
+        "ddof": 1,
+        "source": "gat_ablation",
+        "scale": "medium"
+      },
+      {
+        "method": "PGExplainer",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.26325282154363505,
+        "sd": 0.1104080356385454,
+        "ddof": 0,
+        "source": "graphxai_extra",
+        "scale": "medium"
+      },
+      {
+        "method": "PGExplainer",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.1473180465127413,
+        "sd": 0.19638094213328341,
+        "ddof": 0,
+        "source": "graphxai_extra",
+        "scale": "medium"
+      },
+      {
+        "method": "PGExplainer",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.04728921078921078,
+        "sd": 0.06336457171646634,
+        "ddof": 0,
+        "source": "graphxai_extra",
+        "scale": "medium"
+      },
+      {
+        "method": "Grad-CAM",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.17183478470556518,
+        "sd": 0.10082031898674634,
+        "ddof": 1,
+        "source": "graphxai_extra2",
+        "scale": "medium"
+      },
+      {
+        "method": "Grad-CAM",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.5331644536043171,
+        "sd": 0.24767964007206986,
+        "ddof": 1,
+        "source": "graphxai_extra2",
+        "scale": "medium"
+      },
+      {
+        "method": "Grad-CAM",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.19474958374958376,
+        "sd": 0.0867473066088141,
+        "ddof": 1,
+        "source": "graphxai_extra2",
+        "scale": "medium"
+      },
+      {
+        "method": "GraphMask",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.17183478470556518,
+        "sd": 0.10082031898674634,
+        "ddof": 1,
+        "source": "graphxai_extra2",
+        "scale": "medium"
+      },
+      {
+        "method": "GraphMask",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.23238101952238296,
+        "sd": 0.18129342429189527,
+        "ddof": 1,
+        "source": "graphxai_extra2",
+        "scale": "medium"
+      },
+      {
+        "method": "GraphMask",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.08661605061605061,
+        "sd": 0.06187217120554369,
+        "ddof": 1,
+        "source": "graphxai_extra2",
+        "scale": "medium"
+      },
+      {
+        "host": "IG-on-CEDA matched host",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.9234457514474225,
+        "sd": 0.03982755564942633,
+        "ddof": 1,
+        "source": "ig_on_ceda",
+        "scale": "medium"
+      },
+      {
+        "host": "IG-on-CEDA matched host",
+        "metric": "CCI_NDCG@5",
+        "n": 25,
+        "mean": 0.7491503175439264,
+        "sd": 0.2556640125041637,
+        "ddof": 1,
+        "source": "ig_on_ceda",
+        "scale": "medium"
+      },
+      {
+        "host": "IG-on-CEDA matched host",
+        "metric": "CCI_Recall@5",
+        "n": 25,
+        "mean": 0.2708391608391608,
+        "sd": 0.1064499570318038,
+        "ddof": 1,
+        "source": "ig_on_ceda",
+        "scale": "medium"
+      },
+      {
+        "host": "IG-on-CEDA matched host",
+        "metric": "IG_NDCG@5",
+        "n": 25,
+        "mean": 0.18896507829387618,
+        "sd": 0.26555403880831907,
+        "ddof": 1,
+        "source": "ig_on_ceda",
+        "scale": "medium"
+      },
+      {
+        "host": "IG-on-CEDA matched host",
+        "metric": "IG_Recall@5",
+        "n": 25,
+        "mean": 0.07474808524808525,
+        "sd": 0.09437310117776926,
+        "ddof": 1,
+        "source": "ig_on_ceda",
+        "scale": "medium"
+      },
+      {
+        "host": "GNNEx-on-CEDA matched host",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.9181891090795743,
+        "sd": 0.04795216887306356,
+        "ddof": 1,
+        "source": "gnnex_on_ceda",
+        "scale": "medium"
+      },
+      {
+        "host": "GNNEx-on-CEDA matched host",
+        "metric": "CCI_NDCG@5",
+        "n": 25,
+        "mean": 0.763601180478557,
+        "sd": 0.19251353552839023,
+        "ddof": 1,
+        "source": "gnnex_on_ceda",
+        "scale": "medium"
+      },
+      {
+        "host": "GNNEx-on-CEDA matched host",
+        "metric": "CCI_Recall@5",
+        "n": 25,
+        "mean": 0.26944988344988346,
+        "sd": 0.0874146897482388,
+        "ddof": 1,
+        "source": "gnnex_on_ceda",
+        "scale": "medium"
+      },
+      {
+        "host": "GNNEx-on-CEDA matched host",
+        "metric": "GNNEx_NDCG@5",
+        "n": 25,
+        "mean": 0.37604187932768735,
+        "sd": 0.25465718181244634,
+        "ddof": 1,
+        "source": "gnnex_on_ceda",
+        "scale": "medium"
+      },
+      {
+        "host": "GNNEx-on-CEDA matched host",
+        "metric": "GNNEx_Recall@5",
+        "n": 25,
+        "mean": 0.13805461205461206,
+        "sd": 0.08440608125175231,
+        "ddof": 1,
+        "source": "gnnex_on_ceda",
+        "scale": "medium"
+      },
+      {
+        "method": "GNNExplainer",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.3691025601808067,
+        "sd": 0.1569651291758464,
+        "ddof": 1,
+        "source": "gnnexplainer_large",
+        "scale": "large"
+      },
+      {
+        "method": "GNNExplainer",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.1534580413734578,
+        "sd": 0.19449234478150737,
+        "ddof": 1,
+        "source": "gnnexplainer_large",
+        "scale": "large"
+      },
+      {
+        "method": "GNNExplainer",
+        "metric": "Recall@5",
+        "n": 25,
+        "mean": 0.07628371628371629,
+        "sd": 0.09134848619633984,
+        "ddof": 1,
+        "source": "gnnexplainer_large",
+        "scale": "large"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "source_id": "archived_validation_table_III",
+  "source_sha256": "56ec4af77e1f149ff2ceae4b4b0820a7ea0550621b47b7989787c63855ea7252",
+  "result": {
+    "cells": [
+      {
+        "variant": "CEDA-T (Full)",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.915044,
+        "sd": 0.0514825138598858,
+        "ddof": 1
+      },
+      {
+        "variant": "CEDA-T (Full)",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.766432,
+        "sd": 0.2081539989206709,
+        "ddof": 1
+      },
+      {
+        "variant": "CEDA-T (Full)",
+        "metric": "final_orth",
+        "n": 25,
+        "mean": 0.005548,
+        "sd": 0.0011217991501749915,
+        "ddof": 1
+      },
+      {
+        "variant": "w/o ContextEncoder",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.913304,
+        "sd": 0.04809720608656321,
+        "ddof": 1
+      },
+      {
+        "variant": "w/o ContextEncoder",
+        "metric": "final_orth",
+        "n": 25,
+        "mean": 0.005308,
+        "sd": 0.0009327021675397423,
+        "ddof": 1
+      },
+      {
+        "variant": "w/o IB",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.919612,
+        "sd": 0.047173556505030786,
+        "ddof": 1
+      },
+      {
+        "variant": "w/o IB",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.758348,
+        "sd": 0.2149274783114838,
+        "ddof": 1
+      },
+      {
+        "variant": "w/o IB",
+        "metric": "final_orth",
+        "n": 25,
+        "mean": 0.005424,
+        "sd": 0.0009631891472256804,
+        "ddof": 1
+      },
+      {
+        "variant": "w/o Orthogonality",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.910552,
+        "sd": 0.04626728613898449,
+        "ddof": 1
+      },
+      {
+        "variant": "w/o Orthogonality",
+        "metric": "NDCG@5",
+        "n": 25,
+        "mean": 0.710224,
+        "sd": 0.2932441719795979,
+        "ddof": 1
+      },
+      {
+        "variant": "w/o Orthogonality",
+        "metric": "final_orth",
+        "n": 25,
+        "mean": 0.025004,
+        "sd": 0.00786381374821827,
+        "ddof": 1
+      },
+      {
+        "variant": "w/o PhysicsGNN",
+        "metric": "accuracy",
+        "n": 25,
+        "mean": 0.240356,
+        "sd": 0.16553009313515574,
+        "ddof": 1
+      },
+      {
+        "variant": "w/o PhysicsGNN",
+        "metric": "final_orth",
+        "n": 25,
+        "mean": 0.0,
+        "sd": 0.0,
+        "ddof": 1
+      }
+    ]
+  }
+}

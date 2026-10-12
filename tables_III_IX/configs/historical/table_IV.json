@@ -1,0 +1,28 @@
+{
+  "run_seeds": [
+    0,
+    1
+  ],
+  "n_vars": [
+    20,
+    30
+  ],
+  "families": 4,
+  "bases_per_family": 20,
+  "rows": 320,
+  "class_counts": {
+    "structural": 80,
+    "tacit": 240
+  },
+  "macro": "two classes equal weight; not pooled 320-row mean",
+  "full_weights": [
+    0.5,
+    0.5
+  ],
+  "split": "not applicable to controlled SCM diagnostic",
+  "full_rerun_gaps": [
+    "generator inputs and dependency packaging",
+    "from-scratch diagnostic run not accepted here"
+  ],
+  "evidence_basis": "Original input manifests and archived evaluation records; documentary reconstruction, not a new execution"
+}

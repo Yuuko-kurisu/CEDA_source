@@ -1,0 +1,635 @@
+{
+  "status": "LOCAL_ONLY",
+  "assets": {
+    "iii_cases": {
+      "path": "archived_results/iii_cases.csv",
+      "sha256": "fcdb77dea9d541dd2bcab3bc14de8db2efdff8a24ad4e07769e88261fcd837f4",
+      "rows": 25,
+      "source_rows": 25,
+      "source_sha256": "a3b7f922839980efdefa3ddb0eda7148ba3cbc150adb61b10a79b6aa6f8158ba",
+      "columns": [
+        "case_id",
+        "log_sha256",
+        "config_sha256",
+        "base_config_epochs",
+        "effective_log_epochs",
+        "beta_full",
+        "gamma_full",
+        "free_bits_full",
+        "phy_bottleneck_drop",
+        "model_files"
+      ],
+      "numeric": [
+        "base_config_epochs",
+        "effective_log_epochs",
+        "beta_full",
+        "gamma_full",
+        "free_bits_full",
+        "phy_bottleneck_drop",
+        "model_files"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id"
+      ],
+      "tables": [
+        "III"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "iii_percase": {
+      "path": "archived_results/iii_percase.csv",
+      "sha256": "43ad433f020ead3d31f3be3f09c7e88476bee2a9663666d015c193bc11d25c24",
+      "rows": 125,
+      "source_rows": 125,
+      "source_sha256": "fa0fc7259fa9567e4ae18e6cec9a8940b7363aff72a5be82ee59274f2762571b",
+      "columns": [
+        "case_id",
+        "variant",
+        "accuracy",
+        "NDCG@5",
+        "final_orth"
+      ],
+      "numeric": [
+        "accuracy",
+        "NDCG@5",
+        "final_orth"
+      ],
+      "nullable_numeric": [
+        "NDCG@5"
+      ],
+      "unique_key": [
+        "case_id",
+        "variant"
+      ],
+      "tables": [
+        "III"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "iv_scm": {
+      "path": "archived_results/iv_scm.csv",
+      "sha256": "582121dcb3a574f962be1b8adeaaf8b3917840bd491e21ab16d4ccd291c5c6b1",
+      "rows": 320,
+      "source_rows": 320,
+      "source_sha256": "a11cc9be45d7b8ab360721e8a8890be3a54fbed3933051c70fd4334b41ea4667",
+      "columns": [
+        "case_id",
+        "n_vars",
+        "base_id",
+        "family",
+        "defect_class",
+        "run_seed",
+        "full_ndcg5",
+        "without_physics_ndcg5",
+        "without_context_ndcg5"
+      ],
+      "numeric": [
+        "n_vars",
+        "base_id",
+        "run_seed",
+        "full_ndcg5",
+        "without_physics_ndcg5",
+        "without_context_ndcg5"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "run_seed"
+      ],
+      "tables": [
+        "IV"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "e4_percase": {
+      "path": "archived_results/e4_percase.csv",
+      "sha256": "927bd29164f3d8eb07ba65481957b60f6aa9a4f971b6f04b6149f63df7aea8e3",
+      "rows": 450,
+      "source_rows": 450,
+      "source_sha256": "e2853b082779ae46c0f2bd28d832478274857f080c05a45f87f8b1944ed3eaf0",
+      "columns": [
+        "scale",
+        "case_id",
+        "method",
+        "accuracy",
+        "NDCG@5",
+        "Recall@5"
+      ],
+      "numeric": [
+        "accuracy",
+        "NDCG@5",
+        "Recall@5"
+      ],
+      "nullable_numeric": [
+        "Recall@5"
+      ],
+      "unique_key": [
+        "scale",
+        "case_id",
+        "method"
+      ],
+      "tables": [
+        "V",
+        "IX"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "gnnexplainer_small": {
+      "path": "archived_results/gnnexplainer_small.csv",
+      "sha256": "876a5cfdc0f0d988d6b649d822d62e4c765d62f2425f6c6965859dfb253d2f27",
+      "rows": 25,
+      "source_rows": 25,
+      "source_sha256": "c0c25f8085a27e707d1548aac97a478eb7070d23f89502205cf61d1ecc699c5f",
+      "columns": [
+        "case_id",
+        "method",
+        "accuracy",
+        "NDCG@5",
+        "Recall@5",
+        "num_nodes",
+        "num_gt_defects"
+      ],
+      "numeric": [
+        "accuracy",
+        "NDCG@5",
+        "Recall@5",
+        "num_nodes",
+        "num_gt_defects"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "method"
+      ],
+      "tables": [
+        "IX"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "gnnexplainer_medium": {
+      "path": "archived_results/gnnexplainer_medium.csv",
+      "sha256": "5364c1ec5fb82a4dfc15385d79d13709c3fcc8a24fe7a2ad419418c27e75d9a4",
+      "rows": 25,
+      "source_rows": 25,
+      "source_sha256": "ffc1d78796e52bcc1fa9832f16bac9ddd2e51b8a586ed067c0478ddc8411a607",
+      "columns": [
+        "case_id",
+        "method",
+        "accuracy",
+        "NDCG@5",
+        "Recall@5",
+        "num_nodes",
+        "num_gt_defects"
+      ],
+      "numeric": [
+        "accuracy",
+        "NDCG@5",
+        "Recall@5",
+        "num_nodes",
+        "num_gt_defects"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "method"
+      ],
+      "tables": [
+        "V",
+        "IX"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "gnnexplainer_large": {
+      "path": "archived_results/gnnexplainer_large.csv",
+      "sha256": "7a18a56be11a0b24c57d34a039f3e51ee7c5e8f7825605ffaf8a91e073e7a781",
+      "rows": 25,
+      "source_rows": 25,
+      "source_sha256": "66581a7d77cf8053017f754f8b44de3fc2c1bcadb6ff7ab385a98be403f57ec3",
+      "columns": [
+        "case_id",
+        "method",
+        "accuracy",
+        "NDCG@5",
+        "Recall@5",
+        "num_nodes",
+        "num_gt_defects"
+      ],
+      "numeric": [
+        "accuracy",
+        "NDCG@5",
+        "Recall@5",
+        "num_nodes",
+        "num_gt_defects"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "method"
+      ],
+      "tables": [
+        "IX"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "gat_ablation": {
+      "path": "archived_results/gat_ablation.csv",
+      "sha256": "82ddf6eceec70a0f8df36e72774e33d7da1376f13cc408e1606e6d0c69ad03f3",
+      "rows": 25,
+      "source_rows": 25,
+      "source_sha256": "137b9b162d8666d5c13acda339a5621cdd56f1554d7c0811dc0790b80a2ddb65",
+      "columns": [
+        "case_id",
+        "method",
+        "accuracy",
+        "NDCG@5",
+        "Recall@5",
+        "num_nodes",
+        "num_gt_defects"
+      ],
+      "numeric": [
+        "accuracy",
+        "NDCG@5",
+        "Recall@5",
+        "num_nodes",
+        "num_gt_defects"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "method"
+      ],
+      "tables": [
+        "V",
+        "IX"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "graphxai_extra": {
+      "path": "archived_results/graphxai_extra.csv",
+      "sha256": "9cbed3a427ae332a1fbf5841d65fdd331f220e7e7d2f48e9b0121a41f45864d2",
+      "rows": 50,
+      "source_rows": 50,
+      "source_sha256": "d5c67c08f22b914fdc878f522a8bd42782359953dd136ff3a55e4e32c91daa81",
+      "columns": [
+        "case_id",
+        "method",
+        "Accuracy",
+        "NDCG@5",
+        "Recall@5",
+        "status",
+        "host",
+        "host_protocol"
+      ],
+      "numeric": [
+        "Accuracy",
+        "NDCG@5",
+        "Recall@5"
+      ],
+      "nullable_numeric": [
+        "Accuracy",
+        "NDCG@5",
+        "Recall@5"
+      ],
+      "unique_key": [
+        "case_id",
+        "method"
+      ],
+      "tables": [
+        "V",
+        "IX"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "graphxai_extra2": {
+      "path": "archived_results/graphxai_extra2.csv",
+      "sha256": "5affab8aec28cb56cce9a579101545837409d62bbc281e1638db743e9b51bf24",
+      "rows": 50,
+      "source_rows": 50,
+      "source_sha256": "643683bfe0bc1cfe0bc1ac558563ade85d8895d56cf1252fe9abf3ea8961c0c5",
+      "columns": [
+        "case_id",
+        "method",
+        "Accuracy",
+        "NDCG@5",
+        "Recall@5"
+      ],
+      "numeric": [
+        "Accuracy",
+        "NDCG@5",
+        "Recall@5"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "method"
+      ],
+      "tables": [
+        "V",
+        "IX"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "ig_on_ceda": {
+      "path": "archived_results/ig_on_ceda.csv",
+      "sha256": "2e266c1ba28e1700aeb774b153319b2c5ace9b1192d1ded4d1d7daa6da1e47cf",
+      "rows": 25,
+      "source_rows": 25,
+      "source_sha256": "2078fff2adb53c62ed61d09a4d2ac46462be67d5c3e2cc305543d0e8b36e6336",
+      "columns": [
+        "case_id",
+        "accuracy",
+        "CCI_NDCG@5",
+        "CCI_Recall@5",
+        "IG_NDCG@5",
+        "IG_Recall@5"
+      ],
+      "numeric": [
+        "accuracy",
+        "CCI_NDCG@5",
+        "CCI_Recall@5",
+        "IG_NDCG@5",
+        "IG_Recall@5"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id"
+      ],
+      "tables": [
+        "V",
+        "IX"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "gnnex_on_ceda": {
+      "path": "archived_results/gnnex_on_ceda.csv",
+      "sha256": "d9cd9d23b9ae9040ddba6ac602e1194b936a2cc63525d05b1dc6bf1db546ffe7",
+      "rows": 25,
+      "source_rows": 25,
+      "source_sha256": "2e20bf420775a0de4641f4583843b05301f69069395dade4692b19ab2e144f4b",
+      "columns": [
+        "case_id",
+        "accuracy",
+        "CCI_NDCG@5",
+        "CCI_Recall@5",
+        "GNNEx_NDCG@5",
+        "GNNEx_Recall@5"
+      ],
+      "numeric": [
+        "accuracy",
+        "CCI_NDCG@5",
+        "CCI_Recall@5",
+        "GNNEx_NDCG@5",
+        "GNNEx_Recall@5"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id"
+      ],
+      "tables": [
+        "V",
+        "IX"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "vi_scores": {
+      "path": "archived_results/vi_scores.csv",
+      "sha256": "8844bcad91bb51ff408e4aba1bd8e3336a1b8398780245402317c59b8fb1d750",
+      "rows": 600,
+      "source_rows": 600,
+      "source_sha256": "3b735c9fa9bb7ac6f1c48496857f815a59086ba8ac0c7bbe379238e8423c0ef5",
+      "columns": [
+        "case_id",
+        "pairing_id",
+        "derived_lopo_fold",
+        "rank_from_final_score",
+        "candidate",
+        "final_lopo_score",
+        "is_gt"
+      ],
+      "numeric": [
+        "derived_lopo_fold",
+        "rank_from_final_score",
+        "final_lopo_score",
+        "is_gt"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "candidate"
+      ],
+      "tables": [
+        "VI"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "vi_selection": {
+      "path": "archived_results/vi_selection.csv",
+      "sha256": "387975b614194598d2a1b953dac31fba392037391f8f87717696c5face122648",
+      "rows": 30,
+      "source_rows": 30,
+      "source_sha256": "f602cf9b2c1fd7e7509a4673f371421dae309eac57c3c35e69248536139afe07",
+      "columns": [
+        "case_id",
+        "pairing_id",
+        "derived_lopo_fold",
+        "selected",
+        "final_score",
+        "gt_rank_from_final_score",
+        "exact",
+        "top3",
+        "U_eqi_archived_candidate_utility"
+      ],
+      "numeric": [
+        "derived_lopo_fold",
+        "final_score",
+        "gt_rank_from_final_score",
+        "exact",
+        "top3",
+        "U_eqi_archived_candidate_utility"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id"
+      ],
+      "tables": [
+        "VI"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "vi_structure": {
+      "path": "archived_results/vi_structure.csv",
+      "sha256": "7c8f10f8c695400ae6e498dc0bc988c44b28c0dd5efe71d534c5f27b091bc2f4",
+      "rows": 240,
+      "source_rows": 600,
+      "source_sha256": "5481954ffb32523b96bd698ca45d49c9eb5ecd63805a2d645a7f219346db45ac",
+      "columns": [
+        "case_id",
+        "method",
+        "top_k",
+        "exact_tuple",
+        "gt_in_topk",
+        "U_eqi"
+      ],
+      "numeric": [
+        "top_k",
+        "exact_tuple",
+        "gt_in_topk",
+        "U_eqi"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "method",
+        "top_k"
+      ],
+      "tables": [
+        "VI"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "vi_llm_metrics": {
+      "path": "archived_results/vi_llm_metrics.csv",
+      "sha256": "f37d4605be84a2f4cd8e4a6c60f658500c799d1e8d57e84e084aceddf2bb1bbf",
+      "rows": 60,
+      "source_rows": 60,
+      "source_sha256": "7f1fc866f21eb7c8cced993feafb03311102c0aa808e7401a1431a5011189715",
+      "columns": [
+        "case_id",
+        "method",
+        "top_k",
+        "exact_tuple",
+        "gt_in_topk",
+        "U_eqi"
+      ],
+      "numeric": [
+        "top_k",
+        "exact_tuple",
+        "gt_in_topk",
+        "U_eqi"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "method",
+        "top_k"
+      ],
+      "tables": [
+        "VI"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "vi_llm_family_metrics": {
+      "path": "archived_results/vi_llm_family_metrics.csv",
+      "sha256": "54eb96d09893d7d31efd7a4a8091d40e3a0dc228953d077c1619cc10ceef8416",
+      "rows": 120,
+      "source_rows": 120,
+      "source_sha256": "62a3505005074e0dc852b8de0db1d79b4c9c9a3746a2460048bd024a13bf9818",
+      "columns": [
+        "case_id",
+        "method",
+        "top_k",
+        "exact_tuple",
+        "gt_in_topk",
+        "U_eqi"
+      ],
+      "numeric": [
+        "top_k",
+        "exact_tuple",
+        "gt_in_topk",
+        "U_eqi"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "method",
+        "top_k"
+      ],
+      "tables": [
+        "VI"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "vii_percase": {
+      "path": "archived_results/vii_percase.csv",
+      "sha256": "35d3e8e585a4fa7936c189a3ae1f4905101d5f9ef475b919c24a1168356a120f",
+      "rows": 740,
+      "source_rows": 740,
+      "source_sha256": "c864b977ae4e7b469842c2fb3df4e6d21ed4907db1f911302710fe2d16afdad1",
+      "columns": [
+        "case_id",
+        "defect_type",
+        "method",
+        "base_accuracy",
+        "included_for_headline",
+        "pair_p1"
+      ],
+      "numeric": [
+        "base_accuracy",
+        "pair_p1"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id",
+        "method"
+      ],
+      "tables": [
+        "VII"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    },
+    "viii_utilities": {
+      "path": "archived_results/viii_utilities.csv",
+      "sha256": "2c3ba8ce2c2717105ba1c62724df4d549e0bc862ce3497ad9851a1be09b986e8",
+      "rows": 30,
+      "source_rows": 30,
+      "source_sha256": "c14e48ef302743ef31636677add823e63078a57481cd0c3116191769461fb5d9",
+      "columns": [
+        "case_id",
+        "pairing_id",
+        "derived_lopo_fold",
+        "regime",
+        "final_selected",
+        "final_score",
+        "delta_eqi",
+        "delta_eqi_gt",
+        "method_utility_source",
+        "gt_utility_source",
+        "original_selection_changed"
+      ],
+      "numeric": [
+        "derived_lopo_fold",
+        "final_score",
+        "delta_eqi",
+        "delta_eqi_gt"
+      ],
+      "nullable_numeric": [],
+      "unique_key": [
+        "case_id"
+      ],
+      "tables": [
+        "VIII"
+      ],
+      "publication_permission": "PENDING",
+      "kind": "self-generated numeric evaluation metrics; no LLM raw output"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "source_id": "archived_validation_table_VIII",
+  "source_sha256": "74366545c8a85c4cac1e1a7c4aa156d682a91c134bcc40c874bc947d3aa126f3",
+  "result": {
+    "cells": [
+      {
+        "regime": "dry",
+        "n": 10,
+        "mean_method": 37.8045365404686,
+        "mean_GT": 46.67312559923421,
+        "improved": 8,
+        "worsened": 0,
+        "benefit_share": 0.8099851050277395
+      },
+      {
+        "regime": "rain",
+        "n": 10,
+        "mean_method": 133.25450531939018,
+        "mean_GT": 158.50438025257108,
+        "improved": 8,
+        "worsened": 0,
+        "benefit_share": 0.8406991977575249
+      },
+      {
+        "regime": "storm",
+        "n": 10,
+        "mean_method": 398.8229019582862,
+        "mean_GT": 511.20746554861626,
+        "improved": 8,
+        "worsened": 0,
+        "benefit_share": 0.7801586025945034
+      },
+      {
+        "regime": "overall",
+        "n": 30,
+        "mean_method": 189.96064793938166,
+        "mean_GT": 238.79499046680718,
+        "improved": 24,
+        "worsened": 0,
+        "benefit_share": 0.7954967881362922
+      }
+    ]
+  }
+}

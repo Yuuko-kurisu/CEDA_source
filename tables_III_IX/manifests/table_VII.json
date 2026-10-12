@@ -1,0 +1,18 @@
+{
+  "table": "VII",
+  "mode": "ARCHIVE_REAGGREGATION_ONLY_NOT_TRAINING_OR_FULL_RERUN",
+  "inputs": [
+    "vii_percase"
+  ],
+  "expected": "manifests/expected/table_VII.json",
+  "config": "configs/historical/table_VII.json",
+  "full_rerun_verified": false,
+  "full_rerun_gaps": [
+    "74 checkpoints not included",
+    "all historical generated cases",
+    "74-case full run acceptance"
+  ],
+  "ci_status": "NO_CI_RECOMPUTATION_CLAIM",
+  "reporting_scope": "point estimates and original per-branch SD; streams kept distinct; not a full typeset-table export",
+  "permission": "LOCAL_ONLY_PUBLIC_REVIEW_PENDING"
+}
