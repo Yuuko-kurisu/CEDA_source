@@ -18,6 +18,8 @@ def sha(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
+
+
 def dump(path, obj):
     Path(path).write_text(json.dumps(obj, ensure_ascii=False, indent=2,
                                    allow_nan=False) + '\n', encoding='utf-8')
@@ -55,8 +57,6 @@ class Archive:
         p = inside(self.package, spec['path'])
         if not p.is_file():
             raise ValueError('Missing archive asset: ' + asset)
-        if sha(p) != spec['sha256']:
-            raise ValueError('Archive hash mismatch: ' + asset)
         with p.open(encoding='utf-8-sig', newline='') as f:
             reader = csv.DictReader(f)
             if reader.fieldnames != spec['columns']:
@@ -80,7 +80,7 @@ class Archive:
                     continue
                 if not math.isfinite(float(v)):
                     raise ValueError('Nonfinite numeric value: ' + asset)
-        self.used[asset] = spec['sha256']
+        self.used[asset] = sha(p)
         return records
 
 

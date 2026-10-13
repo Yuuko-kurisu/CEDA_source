@@ -159,7 +159,7 @@ def main():
              'ci_status': contract['ci_status'], 'full_rerun_verified': False})
     dump(output / 'run.json', {'tables': list(tables), 'mode': MODE, 'input_hashes': archive.used,
                              'training': 0, 'fits': 0, 'simulations': 0, 'network_calls': 0})
-    print('PASS archive aggregation: ' + ', '.join(tables))
+    print('Generated tables from archived case records: ' + ', '.join(tables))
 
 
 if __name__ == '__main__':

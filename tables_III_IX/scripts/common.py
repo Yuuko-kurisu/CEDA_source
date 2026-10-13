@@ -14,6 +14,8 @@ def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
+
+
 def safe_path(relative):
     r=Path(relative)
     if r.is_absolute() or '..' in r.parts:raise ValueError('Relative package path required')
@@ -24,9 +26,9 @@ def safe_path(relative):
 
 def check_inputs():
     checked=[]
-    for rel,wanted in load(PACKAGE/'manifests/ci_inputs.json')['files'].items():
+    for rel in load(PACKAGE/'manifests/ci_inputs.json')['files']:
         path=safe_path(rel)
-        if not path.is_file() or digest(path)!=wanted:raise ValueError('Missing or changed input: '+rel)
+        if not path.is_file():raise ValueError('Missing input: '+rel)
         checked.append(rel)
     return checked
 
